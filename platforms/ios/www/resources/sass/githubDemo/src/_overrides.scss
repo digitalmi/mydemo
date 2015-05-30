@@ -1,0 +1,38 @@
+// Overrides
+
+
+//PLATFORM BASED OVERRIDES
+// overrides for android platform
+.platform-android{
+  
+  //dashboard tiles overrides for android
+  .dashboard-wrapper{
+    .row .col .dbtile{
+       min-height:calculateRem(140px);
+       .db-icon{
+            padding-top:calculateRem(31px);
+            min-height:calculateRem(100px);
+        }
+        .db-actionname{
+            font-size:calculateRem(15px);
+            min-height:calculateRem(40px);
+              line-height: 190%;
+        }
+		.appIcon:before{
+            font-size:calculateRem(46px);
+          }
+    }
+  }
+  
+ // login text
+ .login-wrapper{
+   .item-input input, .item-input textarea{
+      padding-top:0;
+   }
+ } 
+}
+
+// overrides for IOS platform
+.platform-ios{
+  
+}

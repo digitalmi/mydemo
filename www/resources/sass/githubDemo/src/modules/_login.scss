@@ -1,0 +1,54 @@
+//LOGIN MODULE SPECIFIC SASS
+//Mani
+.login.pane, .login.view {
+  background-color: $page-background;
+}
+
+.login-wrapper {
+  background-color: $page-background;
+  padding: calculateRem(32px);
+  text-align: center;
+
+  .login-input {
+    margin-bottom: calculateRem(10px);
+	padding:0px;
+  }
+
+  .login-btn {
+    @include button($color-white, $page-background, $color-white);
+	@include copy-text("Roboto-Regular",18px);
+    &.button.button-block {
+      margin: calculateRem(26px) auto calculateRem(26px) auto;
+    }
+    //&.activated, &:hover {
+    //  @include button($color-blue-button, $color-white, $color-blue-button);
+    //}
+  }
+
+  .logo {
+    max-width: 80%;
+    margin-bottom: calculateRem(26px);
+    //height:15em;
+    //width:40em;
+  }
+
+  a {
+    @include copy-text("Roboto-Regular", 14px);
+    color: $color-brown-text;
+  }
+ input[type="password"]:focus:hover,input[type="text"]:focus:hover{
+	outline: none; 
+	box-shadow: 0 0 calculateRem(5px) $page-background;
+	border:calculateRem(1px) solid $page-background;
+ } 
+ .item-input input, .item-input textarea{
+    width: 100%;
+    padding-left: calculateRem(16px);
+	padding-top: calculateRem(4px);
+}
+ }
+
+
+
+
+

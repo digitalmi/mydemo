@@ -1,0 +1,27 @@
+<!-- login HTML-->
+<ion-view title="login" hide-nav-bar="true" class="login">
+    <div class="bar bar-header bar-assertive" ng-if="errorLabel">
+        <h1 class="title">
+            {{message}}
+        </h1>
+    </div>
+    <ion-content class="has-header" scroll="false">
+        <div class="content-wrapper login-wrapper">
+            <img class="logo" src="../www/resources/images/app-logo.png"/>
+
+            <form novalidate>
+                <label class="item item-input login-input">
+                    <input type="text" placeholder="UserId"
+                           ng-model="loginData.userId" ng-required="true" ng-minlength="2"/>
+                </label>
+
+                <button class="button button-block login-btn" ng-click="doLogin()">
+                    {{buttonLabel}}
+                </button>
+            </form>
+
+        </div>
+    </ion-content>
+</ion-view>
+
+

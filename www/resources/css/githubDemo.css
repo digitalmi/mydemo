@@ -1,0 +1,510 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/roboto/Roboto-Regular-webfont.eot?1427783229") format("embedded-opentype"), url("../fonts/roboto/Roboto-Regular-webfont.svg?1427783229") format("svg"), url("../fonts/roboto/Roboto-Regular-webfont.ttf?1427783229") format("truetype"), url("../fonts/roboto/Roboto-Regular-webfont.woff?1427783229") format("woff");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Bold.woff") format("woff"), url("../fonts/roboto/Roboto-Bold.ttf") format("truetype"), url("../fonts/roboto/Roboto-Bold.svg#Roboto-Bold") format("svg");
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../fonts/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Light.woff") format("woff"), url("../fonts/roboto/Roboto-Light.ttf") format("truetype"), url("../fonts/roboto/Roboto-Light.svg#Roboto-Light") format("svg");
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Medium.woff") format("woff"), url("../fonts/roboto/Roboto-Medium.ttf") format("truetype"), url("../fonts/roboto/Roboto-Medium.svg#Roboto-Medium") format("svg");
+}
+@font-face {
+  font-family: "dhmsm_icons";
+  src: url("../fonts/icons/dhmsm_icon_fonts.eot?1429601488") format("embedded-opentype"), url("../fonts/icons/dhmsm_icon_fonts.svg?1429601488") format("svg"), url("../fonts/icons/dhmsm_icon_fonts.ttf?1429601488") format("truetype"), url("../fonts/icons/dhmsm_icon_fonts.woff?1429601488") format("woff");
+}
+/* line 1, ../sass/githubDemo/src/_icons.scss */
+.appIcon:before {
+  color: #007AFF;
+  font-family: "dhmsm_icons";
+  font-size: 2.25rem;
+  line-height: 130%;
+}
+
+/* line 6, ../sass/githubDemo/src/_icons.scss */
+.icon-arrow:before {
+  content: "";
+}
+
+/* line 10, ../sass/githubDemo/src/_icons.scss */
+.icon-waves:before {
+  content: "\e60d";
+}
+
+/* line 14, ../sass/githubDemo/src/_icons.scss */
+.icon-trainings:before {
+  content: "\e60c";
+}
+
+/* line 18, ../sass/githubDemo/src/_icons.scss */
+.icon-reminders:before {
+  content: "\e60a";
+}
+
+/* line 22, ../sass/githubDemo/src/_icons.scss */
+.icon-news:before {
+  content: "\e609";
+}
+
+/* line 26, ../sass/githubDemo/src/_icons.scss */
+.icon-sites:before {
+  content: "\e60b";
+}
+
+/* line 30, ../sass/githubDemo/src/_icons.scss */
+.icon-sync:before {
+  content: "\e608";
+}
+
+/* line 34, ../sass/githubDemo/src/_icons.scss */
+.icon-home:before {
+  content: "\e607";
+}
+
+/* line 38, ../sass/githubDemo/src/_icons.scss */
+.icon-logout:before {
+  content: "\e606";
+}
+
+/* line 42, ../sass/githubDemo/src/_icons.scss */
+.icon-selectionDownArrow:after {
+  content: "\e605";
+}
+
+/* line 46, ../sass/githubDemo/src/_icons.scss */
+.icon-notification:before {
+  content: "\e604";
+  color: inherit;
+}
+
+/* line 51, ../sass/githubDemo/src/_icons.scss */
+.icon-list:before {
+  content: "\e60f";
+  color: inherit;
+}
+
+/* line 56, ../sass/githubDemo/src/_icons.scss */
+.icon-location:before {
+  content: "\e60e";
+  color: inherit;
+}
+
+/* line 62, ../sass/githubDemo/src/_icons.scss */
+.icon-communications:before {
+  content: "\e602";
+}
+
+/* line 65, ../sass/githubDemo/src/_icons.scss */
+.icon-training:before {
+  content: "\e60c";
+}
+
+/* line 68, ../sass/githubDemo/src/_icons.scss */
+.icon-change_network:before {
+  content: "\e600";
+}
+
+/* line 71, ../sass/githubDemo/src/_icons.scss */
+.icon-checklist:before {
+  content: "\e601";
+}
+
+/* line 75, ../sass/githubDemo/src/_icons.scss */
+.icon-checklist-site:before {
+  content: "\e601";
+}
+
+/* line 78, ../sass/githubDemo/src/_icons.scss */
+.icon-checklist-change_management:before {
+  content: "\e601";
+}
+
+/* line 81, ../sass/githubDemo/src/_icons.scss */
+.icon-checklist-technical:before {
+  content: "\e601";
+}
+
+/* line 84, ../sass/githubDemo/src/_icons.scss */
+.icon-checklist-deployment:before {
+  content: "\e601";
+}
+
+/* line 87, ../sass/githubDemo/src/_icons.scss */
+.icon-checklist-sustainment:before {
+  content: "\e601";
+}
+
+/* line 90, ../sass/githubDemo/src/_icons.scss */
+.icon-checklist-conversion:before {
+  content: "\e601";
+}
+
+/* line 93, ../sass/githubDemo/src/_icons.scss */
+.icon-checklist-n_a:before {
+  content: "\e601";
+}
+
+/* line 3, ../sass/githubDemo/src/_all.scss */
+body, input, button, select, textarea, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Roboto-Regular";
+}
+
+/* line 6, ../sass/githubDemo/src/_all.scss */
+.bar {
+  border-color: #9c1616 !important;
+  background-color: #9c1616 !important;
+  background-image: linear-gradient(0deg, #9c1616, #9c1616 50%, transparent 50%) !important;
+}
+
+/* line 11, ../sass/githubDemo/src/_all.scss */
+.title.title-center.header-item {
+  color: #FFFFFF !important;
+}
+
+/* line 14, ../sass/githubDemo/src/_all.scss */
+.pane, .view {
+  background-color: #FFFFFF;
+}
+
+/* line 18, ../sass/githubDemo/src/_all.scss */
+.content-wrapper {
+  background-color: #FFFFFF;
+  padding: 0.875rem 1rem 0 1rem;
+  overflow: hidden;
+}
+/* line 24, ../sass/githubDemo/src/_all.scss */
+.content-wrapper .active, .content-wrapper .activated {
+  background-color: #FFFFFF;
+}
+
+/* line 32, ../sass/githubDemo/src/_all.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 38, ../sass/githubDemo/src/_all.scss */
+.bar-footer {
+  border-top: 0;
+  background-image: none;
+}
+
+/* line 46, ../sass/githubDemo/src/_all.scss */
+.buttons.header-item .appIcon:before {
+  font-size: 1.5625rem;
+}
+/* line 49, ../sass/githubDemo/src/_all.scss */
+.buttons.header-item .appIcon .badge.header-badge {
+  border-radius: 50%;
+  top: -2.1875rem;
+  left: -0.75rem;
+}
+
+/* line 59, ../sass/githubDemo/src/_all.scss */
+.statusIcon {
+  height: 1.19875rem;
+  width: 1.875rem;
+  float: right;
+  border-radius: 1.125rem;
+}
+/* line 67, ../sass/githubDemo/src/_all.scss */
+.statusIcon.status_0 {
+  border-color: #FF0000;
+  background-color: #FF0000;
+}
+/* line 71, ../sass/githubDemo/src/_all.scss */
+.statusIcon.status_1 {
+  border-color: #FF8D10;
+  background-color: #FF8D10;
+}
+/* line 75, ../sass/githubDemo/src/_all.scss */
+.statusIcon.status_2 {
+  border-color: #4CD762;
+  background-color: #4CD762;
+}
+
+/* line 81, ../sass/githubDemo/src/_all.scss */
+.status-item {
+  font-size: 1rem;
+  padding: 0;
+  color: #000000;
+}
+/* line 87, ../sass/githubDemo/src/_all.scss */
+.status-item .col {
+  position: relative;
+  line-height: 1.2rem;
+  padding-left: 0.625rem;
+}
+/* line 92, ../sass/githubDemo/src/_all.scss */
+.status-item .col .appIcon {
+  position: absolute;
+  top: -0.0625rem;
+}
+/* line 96, ../sass/githubDemo/src/_all.scss */
+.status-item .col .appIcon.arrowPosReset {
+  top: 0.0625rem;
+  right: 0;
+  left: 1rem;
+}
+/* line 102, ../sass/githubDemo/src/_all.scss */
+.status-item .col.border-bottom {
+  border-bottom: 1px solid #E0E0E0;
+}
+/* line 108, ../sass/githubDemo/src/_all.scss */
+.status-item.individual-link .col {
+  padding: 0.625rem 0;
+}
+/* line 111, ../sass/githubDemo/src/_all.scss */
+.status-item.individual-link .col .appIcon {
+  top: 0.375rem;
+}
+/* line 115, ../sass/githubDemo/src/_all.scss */
+.status-item.individual-link.activated {
+  border-color: transparent;
+  background-color: #FFFFFF;
+}
+
+/* line 125, ../sass/githubDemo/src/_all.scss */
+.page-title.row {
+  padding: 0;
+}
+/* line 127, ../sass/githubDemo/src/_all.scss */
+.page-title.row .col {
+  padding: 0;
+}
+/* line 129, ../sass/githubDemo/src/_all.scss */
+.page-title.row .col:last-child {
+  text-align: right;
+}
+/* line 132, ../sass/githubDemo/src/_all.scss */
+.page-title.row .col:first-child {
+  text-align: left;
+}
+/* line 136, ../sass/githubDemo/src/_all.scss */
+.page-title.row .col .titleText {
+  font-family: "Roboto-Regular";
+  font-size: 1.125rem;
+  line-height: 130%;
+  color: #8c6239;
+  padding-bottom: 0.9375rem;
+  text-transform: uppercase;
+}
+
+/* line 146, ../sass/githubDemo/src/_all.scss */
+button.button.button-block {
+  min-height: 2.375rem;
+  line-height: 2.375rem;
+}
+
+/* line 151, ../sass/githubDemo/src/_all.scss */
+button.button-icon.icon.ion-navicon.hamburgerIcon {
+  width: 3.125rem;
+}
+
+/* line 159, ../sass/githubDemo/src/_all.scss */
+button.back-button.buttons.button-clear.header-item {
+  width: 1.875rem;
+}
+
+/* line 163, ../sass/githubDemo/src/_all.scss */
+.popup-container.active .popup {
+  border-radius: 0.25rem;
+  background-color: #FFFFFF;
+}
+
+/* line 168, ../sass/githubDemo/src/_all.scss */
+.popup-head {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* line 173, ../sass/githubDemo/src/_all.scss */
+.popup-title {
+  font-size: 1rem;
+}
+
+/* line 177, ../sass/githubDemo/src/_all.scss */
+.popup-body {
+  overflow: hidden;
+  font-size: 1rem;
+  padding: 0.875rem;
+}
+
+/* line 183, ../sass/githubDemo/src/_all.scss */
+.title.title-center.header-item {
+  text-overflow: inherit;
+  color: #000000;
+}
+
+/* line 188, ../sass/githubDemo/src/_all.scss */
+i.icon.appIcon.icon-arrow.arrowPosReset.sideArrow {
+  line-height: 250%;
+}
+
+/* line 194, ../sass/githubDemo/src/_all.scss */
+.infoWindow.popup-container .popup {
+  background-color: #FFFFFF;
+}
+/* line 196, ../sass/githubDemo/src/_all.scss */
+.infoWindow.popup-container .popup .popup-body {
+  padding: 0;
+}
+/* line 198, ../sass/githubDemo/src/_all.scss */
+.infoWindow.popup-container .popup .popup-body .list .item {
+  border-color: #979797;
+  border-width: 0 0 1px 0;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  white-space: normal;
+  text-transform: none;
+  color: #000000;
+}
+/* line 208, ../sass/githubDemo/src/_all.scss */
+.infoWindow.popup-container .popup .popup-head {
+  border-bottom-color: #979797;
+  padding: 0.625rem;
+}
+/* line 211, ../sass/githubDemo/src/_all.scss */
+.infoWindow.popup-container .popup .popup-head .popup-title {
+  font-size: 1.125rem;
+  text-transform: capitalize;
+}
+/* line 215, ../sass/githubDemo/src/_all.scss */
+.infoWindow.popup-container .popup .popup-head i {
+  display: inline-block;
+  vertical-align: middle;
+  color: #4D4D4D;
+}
+/* line 220, ../sass/githubDemo/src/_all.scss */
+.infoWindow.popup-container .popup .popup-head i:before {
+  font-size: 1.875rem;
+  margin-right: 0.625rem;
+}
+/* line 226, ../sass/githubDemo/src/_all.scss */
+.infoWindow.popup-container .popup .popup-buttons {
+  padding: 0.625rem 2.5rem;
+}
+
+/* line 231, ../sass/githubDemo/src/_all.scss */
+.bar .button.button-infoWindow {
+  font-size: 2rem;
+  color: #666666;
+}
+
+/* line 3, ../sass/githubDemo/src/modules/_login.scss */
+.login.pane, .login.view {
+  background-color: #9c1616;
+}
+
+/* line 7, ../sass/githubDemo/src/modules/_login.scss */
+.login-wrapper {
+  background-color: #9c1616;
+  padding: 2rem;
+  text-align: center;
+}
+/* line 12, ../sass/githubDemo/src/modules/_login.scss */
+.login-wrapper .login-input {
+  margin-bottom: 0.625rem;
+  padding: 0px;
+}
+/* line 17, ../sass/githubDemo/src/modules/_login.scss */
+.login-wrapper .login-btn {
+  background-color: #FFFFFF;
+  color: #9c1616;
+  border-color: #FFFFFF;
+  font-family: "Roboto-Regular";
+  font-size: 1.125rem;
+  line-height: 130%;
+}
+/* line 20, ../sass/githubDemo/src/modules/_login.scss */
+.login-wrapper .login-btn.button.button-block {
+  margin: 1.625rem auto 1.625rem auto;
+}
+/* line 28, ../sass/githubDemo/src/modules/_login.scss */
+.login-wrapper .logo {
+  max-width: 80%;
+  margin-bottom: 1.625rem;
+}
+/* line 35, ../sass/githubDemo/src/modules/_login.scss */
+.login-wrapper a {
+  font-family: "Roboto-Regular";
+  font-size: 0.875rem;
+  line-height: 130%;
+  color: #8c6239;
+}
+/* line 39, ../sass/githubDemo/src/modules/_login.scss */
+.login-wrapper input[type="password"]:focus:hover, .login-wrapper input[type="text"]:focus:hover {
+  outline: none;
+  box-shadow: 0 0 0.3125rem #9c1616;
+  border: 0.0625rem solid #9c1616;
+}
+/* line 44, ../sass/githubDemo/src/modules/_login.scss */
+.login-wrapper .item-input input, .login-wrapper .item-input textarea {
+  width: 100%;
+  padding-left: 1rem;
+  padding-top: 0.25rem;
+}
+
+/* line 1, ../sass/githubDemo/src/modules/_repoList.scss */
+.repoList-wrapper {
+  background-color: #ffebeb;
+  font-family: "Roboto-Regular";
+  font-size: 1.125rem;
+  line-height: 130%;
+}
+/* line 4, ../sass/githubDemo/src/modules/_repoList.scss */
+.repoList-wrapper .repoListItem {
+  border-color: #ff9e9e;
+  margin: 0;
+  border-left: none;
+  border-right: none;
+}
+/* line 10, ../sass/githubDemo/src/modules/_repoList.scss */
+.repoList-wrapper .repo {
+  font-family: "Roboto-Regular";
+  font-size: 1.125rem;
+  line-height: 130%;
+  color: #9c1616;
+}
+/* line 14, ../sass/githubDemo/src/modules/_repoList.scss */
+.repoList-wrapper .repo-sub-item {
+  font-family: "Roboto-Regular";
+  font-size: 1rem;
+  line-height: 130%;
+}
+/* line 16, ../sass/githubDemo/src/modules/_repoList.scss */
+.repoList-wrapper .repo-sub-item .value {
+  font-family: "Roboto-Regular";
+  font-size: 0.9375rem;
+  line-height: 130%;
+  color: #9c1616;
+}
+
+/* line 10, ../sass/githubDemo/src/_overrides.scss */
+.platform-android .dashboard-wrapper .row .col .dbtile {
+  min-height: 8.75rem;
+}
+/* line 12, ../sass/githubDemo/src/_overrides.scss */
+.platform-android .dashboard-wrapper .row .col .dbtile .db-icon {
+  padding-top: 1.9375rem;
+  min-height: 6.25rem;
+}
+/* line 16, ../sass/githubDemo/src/_overrides.scss */
+.platform-android .dashboard-wrapper .row .col .dbtile .db-actionname {
+  font-size: 0.9375rem;
+  min-height: 2.5rem;
+  line-height: 190%;
+}
+/* line 21, ../sass/githubDemo/src/_overrides.scss */
+.platform-android .dashboard-wrapper .row .col .dbtile .appIcon:before {
+  font-size: 2.875rem;
+}
+/* line 29, ../sass/githubDemo/src/_overrides.scss */
+.platform-android .login-wrapper .item-input input, .platform-android .login-wrapper .item-input textarea {
+  padding-top: 0;
+}

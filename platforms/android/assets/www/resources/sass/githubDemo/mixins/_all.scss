@@ -1,0 +1,34 @@
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin button($bgColor:null,$color:null,$borderColor:null) {
+  @if ($bgColor) {
+    background-color: $bgColor;
+  }
+  @if ($color) {
+    color: $color;
+  }
+  @if ($borderColor) {
+    border-color: $borderColor;
+  }
+
+}
+
+@mixin copy-text($fontFamily:null,$fontSize:null,$lineHeight:130%) {
+  @if ($fontFamily) {
+    font-family: $fontFamily;
+  }
+  @if ($fontSize) {
+    font-size: calculateRem($fontSize);
+  }
+  @if ($lineHeight) {
+    line-height: $lineHeight;
+  }
+}

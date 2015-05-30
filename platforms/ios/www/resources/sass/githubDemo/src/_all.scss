@@ -1,0 +1,236 @@
+// COMMON SASS FOR ALL MODULE
+
+body, input, button, select, textarea, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Roboto-Regular";
+}
+.bar {
+  border-color: $page-background !important;
+  background-color: $page-background !important;
+  background-image: linear-gradient(0deg, $page-background, $page-background 50%, transparent 50%) !important;
+}
+.title.title-center.header-item {
+  color: $color-white !important;
+}
+.pane, .view {
+  background-color: $app-theme-content-background-color;
+}
+
+.content-wrapper {
+  background-color: $app-theme-content-background-color;
+  padding: calculateRem(14px) calculateRem(16px) 0 calculateRem(16px);
+  overflow: hidden;
+  
+ // activated class Start
+.active,.activated{
+ // border-color:$color-white;
+  background-color:$color-white;
+}
+// activated class end
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+
+//Footer
+.bar-footer{
+  border-top:0;
+  background-image: none;
+}
+
+//header badge
+.buttons.header-item{
+  .appIcon{
+    &:before{
+      font-size:calculateRem(25px);
+    }
+    .badge.header-badge{
+      border-radius:50%;
+        top: calculateRem(-35px);
+        left: calculateRem(-12px);
+        
+    }
+  }
+}
+
+// statusIcon for all waves & Sites
+.statusIcon{
+  height:calculateRem(19.18px);
+  width:calculateRem(30px);
+  float:right;
+  //margin-top: calculateRem(-1.6px);
+  border:{
+      radius: calculateRem(18px);
+      }
+ &.status_0{
+   border-color:$app-status-color-0;
+   background-color:$app-status-color-0;
+ }
+ &.status_1{
+   border-color:$app-status-color-1;
+   background-color:$app-status-color-1;
+ } 
+ &.status_2{
+   border-color:$app-status-color-2;
+   background-color:$app-status-color-2;
+ }     
+}
+
+.status-item{
+   font-size: calculateRem(16px);
+   padding:0;
+   color:$color-black;
+   
+    
+   .col{
+     position:relative;
+     line-height: calculateRem(19.2px);
+	 padding-left: calculateRem(10px);
+          
+     .appIcon{
+       position:absolute;
+       top:calculateRem(-1px);
+       
+      &.arrowPosReset{
+        top:calculateRem(1px);
+        right:0;
+		left:calculateRem(16px);
+      } 
+     }
+     &.border-bottom{
+       border-bottom:1px solid #E0E0E0;
+     }
+   }
+   
+   &.individual-link{
+     .col{
+       padding: calculateRem(10px) 0;
+       
+       .appIcon{
+         top:calculateRem(6px);
+       }
+     }
+   &.activated{
+      border-color: transparent;
+       background-color: $color-white;
+   }  
+   }
+ }
+// statusIcon for all waves & Sites Ends
+
+  
+.page-title{
+  &.row{
+    padding:0;
+    .col{
+      padding:0;
+      &:last-child{
+        text-align:right;
+      }
+      &:first-child{
+        text-align:left;
+      }
+      
+      .titleText{
+        @include copy-text('Roboto-Regular', 18px);
+        color: $color-brown-text;
+        padding-bottom:calculateRem(15px);
+		text-transform: uppercase;
+      }
+    }
+  }
+}
+
+button.button.button-block{
+	min-height: calculateRem(38px);
+	line-height: calculateRem(38px);
+}
+
+button.button-icon.icon.ion-navicon.hamburgerIcon{
+ width:calculateRem(50px);
+}
+
+//.item:hover{
+// background-color:$color-white;
+//}
+
+button.back-button.buttons.button-clear.header-item{
+	width:calculateRem(30px);
+}
+
+.popup-container.active .popup{
+    border-radius:calculateRem(4px);
+	background-color:$color-white;
+}
+
+.popup-head{
+  padding-top:calculateRem(8px);
+  padding-bottom: calculateRem(8px);
+}
+
+.popup-title{
+ font-size: calculateRem(16px);
+}
+
+.popup-body {
+  overflow: hidden;
+  font-size: calculateRem(16px);
+  padding: calculateRem(14px);
+}
+
+.title.title-center.header-item{
+ text-overflow: inherit;
+ color:$color-black;
+}
+
+i.icon.appIcon.icon-arrow.arrowPosReset.sideArrow{
+  line-height: 250%;
+}
+
+// infoWindow styles begin
+.infoWindow.popup-container{
+   .popup{
+     background-color:$color-white;
+     .popup-body{
+       padding:0;
+       .list .item{
+           border-color:$color-gray-alert-border;
+           border-width: 0 0 1px 0;
+           margin:0;
+           padding: calculateRem(12px) calculateRem(16px);
+            white-space: normal;
+            text-transform: none;
+           color: $color-black;
+       }
+     }
+     .popup-head{
+       border-bottom-color:$color-gray-alert-border;
+       padding: calculateRem(10px);
+       .popup-title{
+         font-size:calculateRem(18px);
+         text-transform:capitalize;
+       }
+       i{
+          display: inline-block;
+          vertical-align: middle;
+          color:$color-grey-text;
+          
+          &:before{
+            font-size: calculateRem(30px);
+            margin-right:calculateRem(10px);
+          }
+       }
+     }
+     .popup-buttons{
+       padding:calculateRem(10px) calculateRem(40px);
+     }
+   }
+}
+.bar .button.button-infoWindow{
+  font-size:calculateRem(32px);
+  color:$color-grey-blackish;
+}
+// infoWindow styles End
+

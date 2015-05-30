@@ -1,0 +1,21 @@
+.repoList-wrapper {
+  background-color: $color-pink-light;
+  @include copy-text("Roboto-Regular",18px);
+  .repoListItem {
+    border-color: $color-pink-dark;
+    margin:0;
+    border-left:none;
+    border-right: none;
+  }
+  .repo{
+    @include copy-text("Roboto-Regular",18px);
+    color:$page-background;
+  }
+  .repo-sub-item {
+    @include copy-text("Roboto-Regular", 16px);
+    .value {
+      @include copy-text("Roboto-Regular", 15px);
+      color: $page-background;
+    }
+  }
+}

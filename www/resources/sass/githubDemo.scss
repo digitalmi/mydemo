@@ -1,0 +1,19 @@
+//import variables 
+@import 'githubDemo/var/all';
+
+//import mixins 
+@import 'githubDemo/mixins/all';
+
+//import src
+@import 'githubDemo/src/fonts';
+@import 'githubDemo/src/icons';
+@import 'githubDemo/src/all';
+
+//src.component
+
+
+//src.modules
+@import 'githubDemo/src/modules/login';
+@import 'githubDemo/src/modules/repoList';
+
+@import 'githubDemo/src/overrides';

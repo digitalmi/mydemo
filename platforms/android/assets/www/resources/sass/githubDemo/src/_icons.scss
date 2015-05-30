@@ -1,0 +1,98 @@
+.appIcon:before {
+  color: $app-theme-content-icon-color;
+  @include copy-text('dhmsm_icons', 36px);
+}
+
+.icon-arrow:before{
+  content: "\e603"
+}
+
+.icon-waves:before {
+  content: "\e60d";
+}
+
+.icon-trainings:before {
+  content: "\e60c";
+}
+
+.icon-reminders:before {
+  content: "\e60a";
+}
+
+.icon-news:before {
+  content: "\e609";
+}
+
+.icon-sites:before {
+  content: "\e60b";
+}
+
+.icon-sync:before {
+  content: "\e608";
+}
+
+.icon-home:before {
+  content: "\e607";
+}
+
+.icon-logout:before {
+  content: "\e606";
+}
+
+.icon-selectionDownArrow:after {
+  content: "\e605";
+}
+
+.icon-notification:before {
+  content: "\e604";
+  color: inherit;
+}
+
+.icon-list:before {
+  content: "\e60f";
+  color: inherit;
+}
+
+.icon-location:before {
+  content: "\e60e";
+  color: inherit;
+}
+
+// ICONS FOR WAVES AND SITES STATUS TEXT BEGINS
+.icon-communications:before{
+  content: "\e602";
+}
+.icon-training:before{
+   content: "\e60c";
+}
+.icon-change_network:before{
+  content: "\e600";
+}
+.icon-checklist:before{
+  content: "\e601";
+}
+// ICONS FOR WAVES AND SITES STATUS TEXT ENDS
+.icon-checklist-site:before{
+  content: "\e601";
+}
+.icon-checklist-change_management:before{
+  content: "\e601";
+}
+.icon-checklist-technical:before{
+  content: "\e601";
+}
+.icon-checklist-deployment:before{
+  content: "\e601";
+}
+.icon-checklist-sustainment:before{
+  content: "\e601";
+}
+.icon-checklist-conversion:before{
+  content: "\e601";
+}
+.icon-checklist-n_a:before{
+  content: "\e601";
+}
+// ICONS FOR WAVES AND SITES CHECKLIST TEXT BEGINS
+
+// ICONS FOR WAVES AND SITES CHECKLIST TEXT ENDS
